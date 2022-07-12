@@ -1,21 +1,308 @@
 id,type,domain,enabled,date_added,date_modified,comment
-19,3,^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.],1,1585426668,1608564394,
-20,3,^(.+[-_.])??ad[sxv]?[0-9]*[-_.],1,1585426668,1608564396,
-21,3,^(.+[-_.])??telemetry[-.],1,1585426668,1608564398,
-22,3,^(.+[-_.])??xn--,1,1585426668,1608564400,
-23,3,^adim(age|g)s?[0-9]*[-_.],1,1585426668,1608564401,
-24,3,^adtrack(er|ing)?[0-9]*[-.],1,1585426668,1608564403,
-25,3,^advert(s|is(ing|ements?))?[0-9]*[-_.],1,1585426668,1608564404,
-26,3,^aff(iliat(es?|ion))?[-.],1,1585426668,1608564405,
-27,3,^analytics?[-.],1,1585426668,1608564406,
-28,3,^banners?[-.],1,1585426668,1608564408,
-29,3,^beacons?[0-9]*[-.],1,1585426668,1608564427,
-30,3,^count(ers?)?[0-9]*[-.],1,1585426668,1608564421,
-31,3,^pixels?[-.],1,1585426668,1608564418,
-32,3,^stat(s|istics)?[0-9]*[-.],1,1585426668,1608564415,
-33,3,^track(ers?|ing)?[0-9]*[-.],1,1585426668,1608564413,
-34,3,^traff(ic)?[-.],1,1585426668,1608564412,
-35,3,^(ads|logs|cloudservices).roku.com$,1,1585426668,1608564411,
-36,0,track.shipstation.com,1,1586220825,1589684086,"USPS tracking"
-37,0,ib.huluim.com,1,1593787890,1593787985,"Hulu scrubbing thumbnails"
-43,2,^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$,1,1608398374,1608398374,"Fixes Google Meet buttons"
+1,0,0.client-channel.google.com,1,1622283895,1622283895,"In order for users on your network to access Google Drive and Google Docs editors this domain must be whitelisted - https://support.google.com/a/answer/2589954?hl=en  - qjz9zk"
+2,0,1drv.com,1,1622283895,1622283895,"It is actually a legitimate Microsoft owned domain and used as a short link for OneDrive documents. - qjz9zk"
+3,0,2.android.pool.ntp.org,1,1622283895,1622283895,"This domain is a part of The pool.ntp.org project which is a big virtual cluster of timeservers providing reliable time. This domain is used in Android devices - qjz9zk"
+4,0,akamaihd.net,1,1622283895,1622283895,"This domain is owned by Akamai Technologies which is a is a global content delivery network (CDN). - qjz9zk"
+5,0,akamaitechnologies.com,1,1622283895,1622283895,"This domain is owned by Akamai Technologies which is a is a global content delivery network (CDN). - qjz9zk"
+6,0,akamaized.net,1,1622283895,1622283895,"This domain is owned by Akamai Technologies which is a is a global content delivery network (CDN). - qjz9zk"
+7,0,amazonaws.com,1,1622283895,1622283895,"Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs. This domain is used to serve files and other static resources which are hosted on Amazon AWS - qjz9zk"
+8,0,android.clients.google.com,1,1622283895,1622283895,"Google Play Store and few devices (especially Android One devices) depends on this domain for system updates. - qjz9zk"
+9,0,api.ipify.org,1,1622283895,1622283895,"It is used to get your public IP address programmatically. ipify is completely opensource. - qjz9zk"
+10,0,app-api.ted.com,1,1622283896,1622283896,"Used by ted.com streams. - qjz9zk"
+11,0,api.rlje.net,1,1622283896,1622283896,"Used to deliver contents on video straming apps on hulu etc. - qjz9zk"
+12,0,appleid.apple.com,1,1622283896,1622283896,"Used to sign in t your Apple account. - qjz9zk"
+13,0,apps.skype.com,1,1622283896,1622283896,"Used to make group calls, group chats etc. on Skype. - qjz9zk"
+14,0,appsbackup-pa.clients6.google.com,1,1622283896,1622283896,"Used to backup device settings and app data. - qjz9zk"
+15,0,appsbackup-pa.googleapis.com,1,1622283896,1622283896,"Used to backup device settings and app data. - qjz9zk"
+16,0,apt.sonarr.tv,1,1622283896,1622283896,"Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. - qjz9zk"
+17,0,aspnetcdn.com,1,1622283896,1622283896,"Owned by Microsoft. Used to deliver files such as Windows updates and other services. - qjz9zk"
+18,0,attestation.xboxlive.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+19,0,ax.phobos.apple.com.edgesuite.net,1,1622283896,1622283896,"Used by Apple Photos. - qjz9zk"
+20,0,brightcove.net,1,1622283896,1622283896,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+21,0,c.s-microsoft.com,1,1622283896,1622283896,"Used to deliver fonts. - qjz9zk"
+22,0,cdn.cloudflare.net,1,1622283896,1622283896,"Used to deliver static files over CloudFlare CDN. - qjz9zk"
+23,0,cdn.embedly.com,1,1622283896,1622283896,"Embedly is used to embed videos, images and rich media from 300+ providers with just the URL. - qjz9zk"
+24,0,cdn.optimizely.com,1,1622283896,1622283896,"optimizely.com is a progressive delivery and experimentation software for other companies. Often used as a video delivery system. - qjz9zk"
+25,0,cdn.vidible.tv,1,1622283896,1622283896,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+26,0,cdn2.optimizely.com,1,1622283896,1622283896,"optimizely.com is a progressive delivery and experimentation software for other companies. Often used as a video delivery system. - qjz9zk"
+27,0,cdn3.optimizely.com,1,1622283896,1622283896,"optimizely.com is a progressive delivery and experimentation software for other companies. Often used as a video delivery system. - qjz9zk"
+28,0,cdnjs.cloudflare.com,1,1622283896,1622283896,"Used to deliver static files over CloudFlare CDN. - qjz9zk"
+29,0,cert.mgt.xboxlive.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+30,0,clientconfig.passport.net,1,1622283896,1622283896,"Owned by Microsoft. Used in Windows Store. - qjz9zk"
+31,0,clients1.google.com,1,1622283896,1622283896,"Used in Google Maps and other Google services. - qjz9zk"
+32,0,clients2.google.com,1,1622283896,1622283896,"Used in Google Maps and other Google services. - qjz9zk"
+33,0,clients3.google.com,1,1622283896,1622283896,"Used in Google Maps and other Google services. - qjz9zk"
+34,0,clients4.google.com,1,1622283896,1622283896,"Used in Google Maps and other Google services. - qjz9zk"
+35,0,clients5.google.com,1,1622283896,1622283896,"Used in Google Maps and other Google services. - qjz9zk"
+36,0,clients6.google.com,1,1622283896,1622283896,"Used in Google Maps and other Google services. - qjz9zk"
+37,0,cpms.spop10.ams.plex.bz,1,1622283896,1622283896,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+38,0,cpms35.spop10.ams.plex.bz,1,1622283896,1622283896,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+39,0,cse.google.com,1,1622283896,1622283896,"Google Custom Search. Often used as a search functionality inside a website. https://programmablesearchengine.google.com/about/ - qjz9zk"
+40,0,ctldl.windowsupdate.com,1,1622283896,1622283896,"Owned by Microsoft. Used to deliver Windows updates. - qjz9zk"
+41,0,cws.conviva.com,1,1622283896,1622283896,"Conviva offers online video optimization and online video analytics. But it is neccessary to whitelist in order to watch many online contents which uses Conviva. - qjz9zk"
+42,0,livepassdl.conviva.com,1,1622283896,1622283896,"Conviva offers online video optimization and online video analytics. But it is neccessary to whitelist in order to watch many online contents which uses Conviva. - qjz9zk"
+43,0,zee.cws.conviva.com,1,1622283896,1622283896,"Conviva offers online video optimization and online video analytics. But it is neccessary to whitelist in order to watch many online contents which uses Conviva. - qjz9zk"
+44,0,pings.conviva.com,1,1622283896,1622283896,"Conviva offers online video optimization and online video analytics. But it is neccessary to whitelist in order to watch many online contents which uses Conviva. - qjz9zk"
+45,0,gfwsl.geforce.com,1,1622283896,1622283896,"Used for checking nVidia driver updates. - qjz9zk"
+46,0,appspot-preview.l.google.com,1,1622283896,1622283896,"Used to deliver system updates to Moto phones. - qjz9zk"
+47,0,d2c8v52ll5s99u.cloudfront.net,1,1622283896,1622283896,"Domain owned by Amazon. Used to deliver media such as videos in entertainment and news sites. - qjz9zk"
+48,0,d2gatte9o95jao.cloudfront.net,1,1622283896,1622283896,"Domain owned by Amazon. Used to deliver media such as videos in entertainment and news sites. - qjz9zk"
+49,0,dashboard.plex.tv,1,1622283896,1622283896,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+50,0,dataplicity.com,1,1622283896,1622283896,"Used to remotely control your Raspberry-Pi. - qjz9zk"
+51,0,def-vef.xboxlive.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+52,0,delivery.vidible.tv,1,1622283896,1622283896,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+53,0,dev.virtualearth.net,1,1622283896,1622283896,"Owned by Microsoft. Used by Bing Maps to get information about various places. For example, this domain should be whitelisted in order to select a store location on costco.com.  - qjz9zk"
+54,0,device.auth.xboxlive.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+55,0,display.ugc.bazaarvoice.com,1,1622283896,1622283896,"To display Ratings & Reviews or Questions & Answers in online stores. - qjz9zk"
+56,0,displaycatalog.mp.microsoft.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+57,0,dl.delivery.mp.microsoft.com,1,1622283896,1622283896,"Used to deliver updates to Microsoft products. - qjz9zk"
+58,0,dl.dropbox.com,1,1622283896,1622283896,"Used to download files from Dropbox - qjz9zk"
+59,0,dl.dropboxusercontent.com,1,1622283896,1622283896,"Used to download files from Dropbox - qjz9zk"
+60,0,dns.msftncsi.com,1,1622283896,1622283896,"Owned by Microsoft. Used to check whether the internet connection is up or not in Windows systems.  - qjz9zk"
+61,0,download.sonarr.tv,1,1622283896,1622283896,"Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. - qjz9zk"
+62,0,drift.com,1,1622283896,1622283896,"Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget. - qjz9zk"
+63,0,driftt.com,1,1622283896,1622283896,"Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget. - qjz9zk"
+64,0,dynupdate.no-ip.com,1,1622283896,1622283896,"No-IP offers DNS services, email, network monitoring and SSL certificates - qjz9zk"
+65,0,ecn.dev.virtualearth.net,1,1622283896,1622283896,"Owned by Microsoft. Used by Bing Maps to get information about various places. For example, this domain should be whitelisted in order to select a store location on costco.com. - qjz9zk"
+66,0,edge.api.brightcove.com,1,1622283896,1622283896,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+67,0,eds.xboxlive.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+68,0,fonts.gstatic.com,1,1622283896,1622283896,"Owned by Google. Used to deliver Google Fonts. - qjz9zk"
+69,0,forums.sonarr.tv,1,1622283896,1622283896,"Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. - qjz9zk"
+70,0,g.live.com,1,1622283896,1622283896,"Used by Microsoft for their Outlook.com and OneDrive products. Backup bitlocker recovery key to Microsoft account. - qjz9zk"
+71,0,geo-prod.do.dsp.mp.microsoft.com,1,1622283896,1622283896,"Enables connections to Windows Update. - qjz9zk"
+72,0,geo3.ggpht.com,1,1622283896,1622283896,"Owned by Google. Used to deliver static files over the internet. - qjz9zk"
+73,0,giphy.com,1,1622283896,1622283896,"Gifs hosting platform. - qjz9zk"
+74,0,github.com,1,1622283896,1622283896,"GitHub provides hosting for software development and version control using Git. - qjz9zk"
+75,0,github.io,1,1622283896,1622283896,"Owned by GitHub. Used for GitHub pages. - qjz9zk"
+76,0,googleapis.com,1,1622283896,1622283896,"An important domain used to provide APIs to various Google services. - qjz9zk"
+77,0,gravatar.com,1,1622283896,1622283896,"Owned by Automattic. Gravatar is a service for providing globally unique avatars - qjz9zk"
+78,0,gstatic.com,1,1622283896,1622283896,"Owned by Google. gstatic.com is a cookieless domain to deliver static content for Google. - qjz9zk"
+79,0,help.ui.xboxlive.com,1,1622283896,1622283896,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+80,0,hls.ted.com,1,1622283896,1622283896,"Used by ted.com streams. - qjz9zk"
+81,0,i.ytimg.com,1,1622283897,1622283897,"Owned by Google. Used to deliver thumbails in YouTube. - qjz9zk"
+82,0,i1.ytimg.com,1,1622283897,1622283897,"Owned by Google. Used to deliver thumbails in YouTube. - qjz9zk"
+83,0,imagesak.secureserver.net,1,1622283897,1622283897,"GoDaddy webmail buttons - qjz9zk"
+84,0,img.vidible.tv,1,1622283897,1622283897,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+85,0,imgix.net,1,1622283897,1622283897,"Image placeholders often used during web page loading. - qjz9zk"
+86,0,imgs.xkcd.com,1,1622283897,1622283897,"Used to deliver images on xkcd.com. - qjz9zk"
+87,0,instantmessaging-pa.googleapis.com,1,1622283897,1622283897,"An important domain used to provide APIs to various Google services. - qjz9zk"
+88,0,intercom.io,1,1622283897,1622283897,"Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget. - qjz9zk"
+89,0,jquery.com,1,1622283897,1622283897,"jQuery is a JavaScript library. Also used to deliver the files over CDN. - qjz9zk"
+90,0,jsdelivr.net,1,1622283897,1622283897," jsDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration. - qjz9zk"
+91,0,keystone.mwbsys.com,1,1622283897,1622283897,"Owned by Malwarebytes. It is a licensing system used to verify the Malwarebytes software license. - qjz9zk"
+92,0,lastfm-img2.akamaized.net,1,1622283897,1622283897,"Used by last.fm to deliver images. - qjz9zk"
+93,0,licensing.xboxlive.com,1,1622283897,1622283897,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+94,0,live.com,1,1622283897,1622283897,"Owned by Microsoft. It is a personal information manager web app from Microsoft consisting of webmail, calendaring, contacts, and tasks services. - qjz9zk"
+95,0,login.live.com,1,1622283897,1622283897,"Owned by Microsoft. The following endpoint is used to authenticate a device.  - qjz9zk"
+96,0,login.microsoftonline.com,1,1622283897,1622283897,"Owned by Microsoft. Used by Microsoft Office apps. - qjz9zk"
+97,0,manifest.googlevideo.com,1,1622283897,1622283897,"Used for YouTube live streams. - qjz9zk"
+98,0,meta-db-worker02.pop.ric.plex.bz,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+99,0,meta.plex.bz,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+100,0,meta.plex.tv,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+101,0,microsoftonline.com,1,1622283897,1622283897,"Owned by Microsoft. This domain is checked by the operating systems when connecting via wifi, and if they do not get the response they expect, they may try to open a wifi login page or similar as they believe they are located behind a captive portal. - qjz9zk"
+102,0,msftncsi.com,1,1622283897,1622283897,"Owned by Microsoft. This domain is checked by the operating systems when connecting via wifi, and if they do not get the response they expect, they may try to open a wifi login page or similar as they believe they are located behind a captive portal. - qjz9zk"
+103,0,my.plexapp.com,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+104,0,nexusrules.officeapps.live.com,1,1622283897,1622283897,"Owned by Microsoft. Used by Microsoft Office apps. - qjz9zk"
+105,0,npr-news.streaming.adswizz.com,1,1622283897,1622283897,"Used for NPR morning news and podcasts. - qjz9zk"
+106,0,nine.plugins.plexapp.com,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+107,0,no-ip.com,1,1622283897,1622283897,"No-IP offers DNS services, email, network monitoring and SSL certificates. - qjz9zk"
+108,0,node.plexapp.com,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+109,0,notify.xboxlive.com,1,1622283897,1622283897,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+110,0,ns1.dropbox.com,1,1622283897,1622283897,"Dropbox nameserver. Used to download files from Dropbox - qjz9zk"
+111,0,ns2.dropbox.com,1,1622283897,1622283897,"Dropbox nameserver. Used to download files from Dropbox - qjz9zk"
+112,0,o1.email.plex.tv,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+113,0,o2.sg0.plex.tv,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+114,0,ocsp.apple.com,1,1622283897,1622283897,"iOS developers are able to distribute apps outside of the App Store using an Enterprise provisioning profile. Apple can revoke these kinds of apps by using this domain. - qjz9zk"
+115,0,office.com,1,1622283897,1622283897,"Owned by Microsoft. Used by Microsoft Office apps. - qjz9zk"
+116,0,office.net,1,1622283897,1622283897,"Owned by Microsoft. Used by Microsoft Office apps. - qjz9zk"
+117,0,office365.com,1,1622283897,1622283897,"Owned by Microsoft. Used by Microsoft Office apps. - qjz9zk"
+118,0,officeclient.microsoft.com,1,1622283897,1622283897,"Used by Microsoft Office apps. - qjz9zk"
+119,0,om.cbsi.com,1,1622283897,1622283897,"CBS All Access on straming platforms. - qjz9zk"
+120,0,onedrive.live.com,1,1622283897,1622283897,"Owned by Microsoft. Used to sign in to One Drive. - qjz9zk"
+121,0,outlook.live.com,1,1622283897,1622283897,"Owned by Microsoft. Used for Outlook email. - qjz9zk"
+122,0,outlook.office365.com,1,1622283897,1622283897,"Owned by Microsoft. Used for Outlook email.ent - qjz9zk"
+123,0,placehold.it,1,1622283897,1622283897,"Placehold.it, Image placeholders often used during web page loading. - qjz9zk"
+124,0,placeholdit.imgix.net,1,1622283897,1622283897,"Placehold.it, Image placeholders often used during web page loading. - qjz9zk"
+125,0,players.brightcove.net,1,1622283897,1622283897,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+126,0,pricelist.skype.com,1,1622283897,1622283897,"Used to make group calls, group chats etc. on Skype. - qjz9zk"
+127,0,products.office.com,1,1622283897,1622283897,"Owned by Microsoft. Used by Microsoft Office apps. - qjz9zk"
+128,0,proxy.plex.bz,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+129,0,proxy.plex.tv,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+130,0,proxy02.pop.ord.plex.bz,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+131,0,pubsub.plex.bz,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+132,0,pubsub.plex.tv,1,1622283897,1622283897,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+133,0,raw.githubusercontent.com,1,1622283897,1622283897,"Owned by GitHub. It is used to serve unprocessed versions of files stored in GitHub repositories.  - qjz9zk"
+134,0,redirector.googlevideo.com,1,1622283897,1622283897,"Used by YouTube to play embedded videos on third-party websites. - qjz9zk"
+135,0,res.cloudinary.com,1,1622283897,1622283897,"Cloudinary provides a cloud-based image and video management services. It enables users to upload, store, manage, manipulate, and deliver images and video for websites and apps. - qjz9zk"
+136,0,s.gateway.messenger.live.com,1,1622283897,1622283897,"Owned by Microsoft. It is a personal information manager web app from Microsoft consisting of webmail, calendaring, contacts, and tasks services. - qjz9zk"
+137,0,s.marketwatch.com,1,1622283897,1622283897,"Images are loaded on marketwatch.com using this domain. - qjz9zk"
+138,0,s.youtube.com,1,1622283897,1622283897,"Used to record YouTube watch history. Blocking this domain will pause your watch history on YouTube. - qjz9zk"
+139,0,s.ytimg.com,1,1622283897,1622283897,"Owned by Google. Used to deliver thumbails in YouTube. - qjz9zk"
+140,0,s1.wp.com,1,1622283897,1622283897,"Owned by WordPress. Used to feliver static files and media for websites which are hosted on wordpress.com platform. - qjz9zk"
+141,0,s2.youtube.com,1,1622283897,1622283897,"Used to record YouTube watch history. Blocking this domain will pause your watch history on YouTube. - qjz9zk"
+142,0,s3.amazonaws.com,1,1622283897,1622283897,"Used to deliver files that are stored in Amazon AWS S3 storage buckets. - qjz9zk"
+143,0,sa.symcb.com,1,1622283897,1622283897,"Owned by Symantec. These are Symantec Certificate Revocation List servers and are used by a number of companies including Microsoft. - qjz9zk"
+144,0,secure.avangate.com,1,1622283897,1622283897,"Used to perform online payments. - qjz9zk"
+145,0,secure.brightcove.com,1,1622283897,1622283897,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+146,0,secure.surveymonkey.com,1,1622283897,1622283897,"Used by Survey Monkey to deliver surveys. - qjz9zk"
+147,0,services.sonarr.tv,1,1622283897,1622283897,"Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. - qjz9zk"
+148,0,skyhook.sonarr.tv,1,1622283897,1622283897,"Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. - qjz9zk"
+149,0,spclient.wg.spotify.com,1,1622283898,1622283898,"Spotify on Web and desktop player does not work if this domain is blocked. - qjz9zk"
+150,0,ssl.p.jwpcdn.com,1,1622283899,1622283899,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+151,0,staging.plex.tv,1,1622283899,1622283899,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+152,0,status.plex.tv,1,1622283899,1622283899,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+153,0,t.co,1,1622283900,1622283900,"Owned by Twitter. Used as a URL shortner while sharing Twitter posts. - qjz9zk"
+154,0,t0.ssl.ak.dynamic.tiles.virtualearth.net,1,1622283900,1622283900,"Owned by Microsoft. Used by Bing Maps to get information about various places. For example, this domain should be whitelisted in order to select a store location on costco.com. - qjz9zk"
+155,0,t0.ssl.ak.tiles.virtualearth.net,1,1622283900,1622283900,"Owned by Microsoft. Used by Bing Maps to get information about various places. For example, this domain should be whitelisted in order to select a store location on costco.com. - qjz9zk"
+156,0,tawk.to,1,1622283900,1622283900,"Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget. - qjz9zk"
+157,0,tedcdn.com,1,1622283900,1622283900,"Used by ted.com streams. - qjz9zk"
+158,0,themoviedb.com,1,1622283900,1622283900,"Metadata for movies - qjz9zk"
+159,0,thetvdb.com,1,1622283900,1622283900,"Metadata for TV series - qjz9zk"
+160,0,tinyurl.com,1,1622283900,1622283900,"Popular URL shortner - qjz9zk"
+161,0,title.auth.xboxlive.com,1,1622283900,1622283900,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+162,0,title.mgt.xboxlive.com,1,1622283900,1622283900,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+163,0,traffic.libsyn.com,1,1622283900,1622283900,"Used in Pocketcasts app to serve and download podcasts. - qjz9zk"
+164,0,tvdb2.plex.tv,1,1622283900,1622283900,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+165,0,tvthemes.plexapp.com,1,1622283900,1622283900,"Plex is a client–server media player system plus an ancillary software suite. - qjz9zk"
+166,0,twimg.com,1,1622283900,1622283900,"Owned by Twitter. Used to deliver media on Twitter. - qjz9zk"
+167,0,ui.skype.com,1,1622283900,1622283900,"Used to make group calls, group chats etc. on Skype. - qjz9zk"
+168,0,video-stats.l.google.com,1,1622283900,1622283900,"Used to record YouTube watch history. Blocking this domain will pause your watch history on YouTube. - qjz9zk"
+169,0,videos.vidible.tv,1,1622283900,1622283900,"Video delivery systems, popular in entertainment and news sites. - qjz9zk"
+170,0,widget-cdn.rpxnow.com,1,1622283900,1622283900,"Owned by Akamai Technologies. Used as a sign in method in various apps and sites. - qjz9zk"
+171,0,win10.ipv6.microsoft.com,1,1622283900,1622283900,"It gives full IPv6 connectivity for IPv6-capable hosts that are on the IPv4 Internet but have no native connection to an IPv6 network.  - qjz9zk"
+172,0,wp.com,1,1622283900,1622283900,"Owned by WordPress.com hosting. - qjz9zk"
+173,0,ws.audioscrobbler.com,1,1622283900,1622283900,"Owned by last.fm. Used to get track metadata using last.fm API. - qjz9zk"
+174,0,www.dataplicity.com,1,1622283900,1622283900,"Used to remotely control your Raspberry-Pi. - qjz9zk"
+175,0,www.googleapis.com,1,1622283900,1622283900,"An important domain used to provide APIs to various Google services.  - qjz9zk"
+176,0,www.msftncsi.com,1,1622283900,1622284713,
+177,0,www.no-ip.com,1,1622283900,1622283900,"No-IP offers DNS services, email, network monitoring and SSL certificates. - qjz9zk"
+178,0,www.youtube-nocookie.com,1,1622283900,1622283900,"Owned by Google. YouTube launched a new feature on the site recently that it called Privacy-Enhanced Mode. This domain is used to embed the videos on third-party sites with less trackers. - qjz9zk"
+179,0,xbox.ipv6.microsoft.com,1,1622283900,1622284713,
+180,0,xboxexperiencesprod.experimentation.xboxlive.com,1,1622283900,1622284713,
+181,0,xflight.xboxlive.com,1,1622283900,1622283900,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+182,0,xkms.xboxlive.com,1,1622283900,1622283900,"Owned by Microsoft. Used for Xbox updates, game downloads, acheivements unlocking etc. - qjz9zk"
+183,0,xsts.auth.xboxlive.com,1,1622283900,1622284713,
+184,0,youtube-nocookie.com,1,1622283900,1622283900,"Owned by Google. YouTube launched a new feature on the site recently that it called Privacy-Enhanced Mode. This domain is used to embed the videos on third-party sites with less trackers. - qjz9zk"
+185,0,youtu.be,1,1622283900,1622283900,"YouTube URL shortner. Used while sharing videos, playlists, channels etc. - qjz9zk"
+186,0,yt3.ggpht.com,1,1622283900,1622283900,"Owned by Google. Used to deliver static files over the internet. - qjz9zk"
+187,0,vidtech.cbsinteractive.com,1,1622283900,1622283900,"Used to deliver videos over the internet. - qjz9zk"
+188,0,continuum.dds.microsoft.com,1,1622283900,1622283900,"Used by YourPhone app by Microsoft on Windows 10 for mirroring Android notifications - qjz9zk"
+189,0,connectivitycheck.gstatic.com,1,1622283900,1622283900,"Owned by Google. Used by mobiles devices to check internet connectivity. Also known as Network Connectivity Status Indicator-NCSI. - qjz9zk"
+190,0,connectivitycheck.android.com,1,1622283900,1622283900,"Owned by Google. Used by mobiles devices to check internet connectivity. Also known as Network Connectivity Status Indicator-NCSI. - qjz9zk"
+191,0,www.msftconnecttest.com,1,1622283900,1622283900,"Owned by Microsoft. Used by Windows systems to check internet connectivity. Also known as Network Connectivity Status Indicator-NCSI. - qjz9zk"
+192,0,5231.xg4ken.com,1,1622283950,1622283950,
+193,0,7eer.net,1,1622283951,1622283951,
+194,0,ad.atdmt.com,1,1622283952,1622283952,
+195,0,ad.doubleclick.net,1,1622283952,1622283952,
+196,0,affiliatefuture.com,1,1622283952,1622283952,
+197,0,anrdoezrs.net,1,1622283952,1622283952,
+198,0,apmebf.com,1,1622283952,1622283952,
+199,0,avantlink.com,1,1622283952,1622283952,
+200,0,bfast.com,1,1622283952,1622283952,
+201,0,cc-dt.com,1,1622283952,1622283952,
+202,0,cj.com,1,1622283952,1622283952,
+203,0,cj.dotomi.com,1,1622283952,1622283952,
+204,0,click.linksynergy.com,1,1622283952,1622283952,
+205,0,clickserve.cc-dt.com,1,1622283952,1622283952,
+206,0,clickserve.dartsearch.net,1,1622283952,1622283952,
+207,0,clk.tradedoubler.com,1,1622283952,1622283952,
+208,0,commission-junction.com,1,1622283952,1622283952,
+209,0,doubleclick.net,1,1622283952,1622283952,
+210,0,dpbolvw.net,1,1622283952,1622283952,
+211,0,emjcd.com,1,1622283952,1622283952,
+212,0,evyy.net,1,1622283952,1622283952,
+213,0,gan.doubleclick.net,1,1622283953,1622283953,
+214,0,go2jump.org,1,1622283953,1622283953,
+215,0,gopjn.com,1,1622283953,1622283953,
+216,0,go.redirectingat.com,1,1622283953,1622283953,
+217,0,go.skimresources.com,1,1622283953,1622283953,
+218,0,jdoqocy.com,1,1622283953,1622283953,
+219,0,kqzyfj.com,1,1622283953,1622283953,
+220,0,linksynergy.com,1,1622283953,1622283953,
+221,0,ojrq.net,1,1622283953,1622283953,
+222,0,onenetworkdirect.net,1,1622283953,1622283953,
+223,0,partners.webmasterplan.com,1,1622283953,1622283953,
+224,0,pjatr.com,1,1622283953,1622283953,
+225,0,pjtra.com,1,1622283953,1622283953,
+226,0,pntrac.com,1,1622283953,1622283953,
+227,0,pntrack.com,1,1622283953,1622283953,
+228,0,pntra.com,1,1622283953,1622283953,
+229,0,qksrv.net,1,1622283953,1622283953,
+230,0,redirect.at,1,1622283953,1622283953,
+231,0,redirectingat.com,1,1622283953,1622283953,
+232,0,redirect.viglink.com,1,1622283953,1622283953,
+233,0,shareasale-analytics.com,1,1622283953,1622283953,
+234,0,shareasale.com,1,1622283953,1622283953,
+235,0,tc.tradetracker.com,1,1622283954,1622283954,
+236,0,tkqlhce.com,1,1622283954,1622283954,
+237,0,track.adform.net,1,1622283954,1622283954,
+238,0,track.webgains.com,1,1622283954,1622283954,
+239,0,tradetracker.net,1,1622283954,1622283954,
+240,0,www.7eer.net,1,1622283954,1622283954,
+241,0,www.affiliatefuture.com,1,1622283954,1622283954,
+242,0,www.anrdoezrs.net,1,1622283954,1622283954,
+243,0,www.apmebf.com,1,1622283954,1622283954,
+244,0,www.avantlink.com,1,1622283954,1622283954,
+245,0,www.bfast.com,1,1622283954,1622283954,
+246,0,www.cc-dt.com,1,1622283954,1622283954,
+247,0,www.cj.com,1,1622283954,1622283954,
+248,0,www.doubleclick.net,1,1622283954,1622283954,
+249,0,www.dpbolvw.net,1,1622283954,1622283954,
+250,0,www.emjcd.com,1,1622283954,1622283954,
+251,0,www.evyy.net,1,1622283954,1622283954,
+252,0,www.gopjn.com,1,1622283954,1622283954,
+253,0,www.jdoqocy.com,1,1622283954,1622283954,
+254,0,www.kqzyfj.com,1,1622283954,1622283954,
+255,0,www.linksynergy.com,1,1622283954,1622283954,
+256,0,www.ojrq.net,1,1622283954,1622283954,
+257,0,www.onenetworkdirect.net,1,1622283955,1622283955,
+258,0,www.pjatr.com,1,1622283955,1622283955,
+259,0,www.pjtra.com,1,1622283955,1622283955,
+260,0,www.pntrac.com,1,1622283955,1622283955,
+261,0,www.pntrack.com,1,1622283955,1622283955,
+262,0,www.pntra.com,1,1622283955,1622283955,
+263,0,www.qksrv.net,1,1622283955,1622283955,
+264,0,www.tkqlhce.com,1,1622283955,1622283955,
+265,0,www.tradetracker.net,1,1622283955,1622283955,
+266,3,"^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]",1,1622284074,1622284074,
+267,3,^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-],1,1622284100,1622284100,
+268,3,^(.+[_.-])?telemetry[_.-],1,1622284106,1622284106,
+269,3,^adim(age|g)s?[0-9]*[_.-],1,1622284110,1622284110,
+270,3,^adtrack(er|ing)?[0-9]*[_.-],1,1622284114,1622284114,
+271,3,^advert(s|is(ing|ements?))?[0-9]*[_.-],1,1622284118,1622284118,
+272,3,^aff(iliat(es?|ion))?[_.-],1,1622284122,1622284122,
+273,3,^analytics?[_.-],1,1622284127,1622284127,
+274,3,^banners?[_.-],1,1622284130,1622284130,
+275,3,^beacons?[0-9]*[_.-],1,1622284136,1622284136,
+276,3,^count(ers?)?[0-9]*[_.-],1,1622284141,1622284141,
+277,3,^mads\.,1,1622284145,1622284145,
+278,3,^pixels?[-.],1,1622284149,1622284149,
+279,3,^stat(s|istics)?[0-9]*[_.-],1,1622284152,1622284152,
+280,0,attestation.xboxlive.comcert.mgt.xboxlive.com,1,1622284713,1622284713,
+281,0,ctldl.windowsupdate.comdef-vef.xboxlive.com,1,1622284713,1622284713,
+282,0,device.auth.xboxlive.comeds.xboxlive.com,1,1622284713,1622284713,
+283,0,help.ui.xboxlive.comlicensing.xboxlive.commicrosoft.com,1,1622284713,1622284713,
+284,0,notify.xboxlive.comsettings-win.data.microsoft.com,1,1622284713,1622284713,
+285,0,title.auth.xboxlive.comtitle.mgt.xboxlive.com,1,1622284713,1622284713,
+286,0,v10.vortex-win.data.microsoft.com,1,1622284713,1622284713,
+290,0,xflight.xboxlive.comxkms.xbolive.com,1,1622284713,1622284713,
+292,0,v20.events.data.microsoft.com,1,1622284713,1622284713,
+293,0,watson.telemetry.microsoft.com,1,1622284713,1622284713,
+294,0,web.vortex.data.microsoft.com,1,1622284713,1622284713,
+295,0,v10.events.data.microsoft.com,1,1622284713,1622284713,
+296,0,widget.trustpilot.com,1,1622404599,1622404599,"Added from Query Log"
+297,0,pages.theaccessgroup.com,1,1622646022,1622646022,"Added from Query Log"
+298,0,click.accelo.com,1,1627985890,1627985890,"Added from Query Log"
+299,0,dixonsretail.d3.sc.omtrdc.net,1,1628683358,1628683358,"Added from Query Log"
+300,0,staticw2.yotpo.com,1,1629535456,1629535456,"Added from Query Log"
+301,0,analytics.home-assistant.io,1,1630534188,1630534188,"Added from Query Log"
+302,2,(\.|^)awstrack\.me$,1,1631182738,1631182738,
+305,0,browser.pipe.aria.microsoft.com,1,1632480810,1632480810,
+306,0,self.events.data.microsoft.com,1,1632903091,1632903091,
+307,0,insideruser.microsoft.com,1,1636567838,1636567838,"Added from Query Log"
+308,0,settings-win.data.microsoft.com,1,1636567844,1636567844,"Added from Query Log"
+309,0,gridcoin.us,1,1637968804,1637968804,"Added from Query Log"
+310,0,go.ninjaone.com,1,1641488055,1641488055,"Added from Query Log"
+311,0,unsubscribe.convertkit.com,1,1644049852,1644049852,"Added from Query Log"
+312,0,cdn.convertkit.com,1,1644049886,1644049886,"Added from Query Log"
+313,3,.*;querytype=HTTPS,1,1657412709,1657412709,
